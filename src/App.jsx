@@ -8,7 +8,6 @@ import NextButton from './components/NextButton';
 function App() {
   return (
     <div className="App">
-      {/* Back Button and Logo */}
       <div style={{ display: "flex", alignItems: "center", width: "100%", position: "relative", top: "43px" }}>
         <BackButton />
         <div style={{
@@ -21,7 +20,6 @@ function App() {
         </div>
       </div>
 
-      {/* Welcome Text */}
       <div style={{
         display: "flex",
         justifyContent: "center",
@@ -31,7 +29,6 @@ function App() {
         <WelcomeText />
       </div>
 
-      {/* Info Text */}
       <div style={{
         display: "flex",
         justifyContent: "center",
@@ -43,7 +40,6 @@ function App() {
         <InfoText />
       </div>
 
-      {/* Next Button */}
       <div className="button-container">
         <NextButton />
       </div>
