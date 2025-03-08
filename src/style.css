@@ -1,0 +1,96 @@
+:root {
+  font-family: Roboto, DM Sans;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: white;
+  margin: 0;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+}
+
+.button-back {
+  top: 44px;
+  left: 25px;
+  width: 44px;
+  height: 44px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+  background-color: #979797;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+  position: absolute;
+  top: 558px;
+  left: 50%;
+  width: 305px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+}
+
+.button-next {
+  width: 305px;
+  height: 58px;
+  background-color: #2e8ea7;
+  border-radius: 24px;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: 58px;
+  box-shadow: 0px 16px 19px rgba(44, 41, 41, 0.08);
+  border: none;
+  cursor: pointer;
+}
+
+/* Text Styles */
+.text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -0.04em;
+  color: #979797;
+}
+
+.welcome-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -0.04em;
+  color: #011a59;
+}
+
+.welcome-text-bold {
+  font-weight: 700;
+}
+
+.info-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -0.04em;
+  color: #979797;
+}
+
+.button-shadow {
+  box-shadow: 0px 16px 19px rgba(44, 41, 41, 0.08);
+}
+
